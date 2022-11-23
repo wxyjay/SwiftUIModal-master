@@ -2,6 +2,7 @@
 //  ContentView.swift
 //  SwiftUIModal
 
+
 import SwiftUI
 
 @available(iOS 14.0, *)
@@ -30,7 +31,7 @@ struct ContentView: View {
         .ignoresSafeArea()
         .sheet(isPresented: $isShow) {
           VStack{
-            Text("System Sheet")
+            Text("Open System Sheet")
           }
         }
     }
